@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/* CSS Document for CSCI E15 - Project 1*/
+
+/* Color palette for site   */
+
+/*  Dark Choc:        #582f2f */
+/*  Burnt Orange:     #c95516 */
+/*  Dark Burnt Orange #c74205; */
+/*  Warm Teal:        #3eb49f */
+/*  Light Gray:       #efefef */
+/*  Med.Light Gray:   #d9d9d9 */
+
+/* Remove all default margins */
+
+* {
+    margin: 0px;
+}
+body {
+    background-position: 0;
+    color: #582f2f;
+    font-family: calibri, verdana, tahoma, arial, helvetica, sans-serif;
+    font-weight: bold;
+    /* The right-margin setting below is to account for  */
+    /* centering, given the scrollbar on the right side. */
+    /* margin-right: 19px;*/
+}
+#wrapper {
+    background-image: url(../images/backgrounds/background19_big.jpg);
+    background-repeat: round;
+    border-spacing: 10px;
+    border-style: solid;
+    border-color: #582f2f;
+    border-width: 7px;
+    border-radius: 2px;
+}
+#container {
+    border-style: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#passwordphrase {
+    font-size: 20px;
+}
+#passwordvalue {
+    font-size: 26px;
+    font-weight: bold;
+    color:  #c74205; 
+}
+#inlineblock {
+    display: inline;
+}
+fieldset {
+    border-color: #3eb49f;  
+    border-width: 3px;
+    margin-top: 10px;
+}
+legend {
+    color: #c74205; 
+    font-size: 28px;
+    font-weight: bold;
+}
+.diffcolor{
+    background-color: #efefef;  
+    color: #582f2f;    
+}
+#submit {
+    color: #c74205; 
+    background-color: #ffffff;  
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-color: #3eb49f;  
+    border-width: 4px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+}
+input[type="radio"] {
+  margin-right: 7px;
+}
+input[type="checkbox"] {
+  margin-right: 7px;
+}
+
+/******************************************************/
+
+/* I added markup below to keep page from moving right or  */
+
+/* left when scroll bar was removed or added, respectively */
+
+html {
+    overflow-y: scroll;
+}
